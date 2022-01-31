@@ -1,11 +1,11 @@
 import React from 'react'
-import { Navbar, Transactions, Services, Welcome, Loader, Footer } from './Components'
+import { Navbar, Transactions, Services, Welcome, Footer } from './Components'
 
 const App = () => {
 
   return (
     <div className="min-h-screen">
-      <div className="gradient-background-welcome">
+      <div className="gradient-bg-welcome">
       <Navbar/>
       <Welcome/>
       </div>
